@@ -23,9 +23,6 @@ public:
     initialize(const std::string &configDir) override;
 
     ReturnStatus
-    setGPU(uint8_t gpuNum) override;
-
-    ReturnStatus
     createTemplate(
             const Image &face,
             TemplateRole role,
@@ -43,7 +40,6 @@ public:
 
 private:
     std::string configDir;
-    uint8_t whichGPU;
     int counter;
     // Some other members
 };
