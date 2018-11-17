@@ -1,3 +1,8 @@
+# This API is deprecated!
+
+Consider to use [IRPV](https://github.com/rusbiometrics/IRPV)
+
+
 # Face Recognition Performance Check
 The Face Recognition Performance Check (FRPC) seeks to identify which algorithms are most accurate at recognizing faces in images collected in an unconstrained manner.
 
